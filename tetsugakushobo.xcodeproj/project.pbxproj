@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1F99321515DE4B00E1EEEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1F99311515DE4B00E1EEEB /* UIKit.framework */; };
+		EF1F99341515DE4B00E1EEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1F99331515DE4B00E1EEEB /* Foundation.framework */; };
+		EF1F99361515DE4B00E1EEEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1F99351515DE4B00E1EEEB /* CoreGraphics.framework */; };
+		EF1F993C1515DE4B00E1EEEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF1F993A1515DE4B00E1EEEB /* InfoPlist.strings */; };
+		EF1F993E1515DE4B00E1EEEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F993D1515DE4B00E1EEEB /* main.m */; };
+		EF1F99421515DE4B00E1EEEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F99411515DE4B00E1EEEB /* AppDelegate.m */; };
+		EF1F99451515DE4B00E1EEEB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1F99431515DE4B00E1EEEB /* MainStoryboard.storyboard */; };
+		EF1F99481515DE4B00E1EEEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F99471515DE4B00E1EEEB /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF1F992D1515DE4B00E1EEEB /* tetsugakushobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tetsugakushobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1F99311515DE4B00E1EEEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF1F99331515DE4B00E1EEEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF1F99351515DE4B00E1EEEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF1F99391515DE4B00E1EEEB /* tetsugakushobo-Info.plist */ = {isa = PBXFileReference; path = "tetsugakushobo-Info.plist"; sourceTree = "<group>"; };
+		EF1F993B1515DE4B00E1EEEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF1F993D1515DE4B00E1EEEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1F993F1515DE4B00E1EEEB /* tetsugakushobo-Prefix.pch */ = {isa = PBXFileReference; path = "tetsugakushobo-Prefix.pch"; sourceTree = "<group>"; };
+		EF1F99401515DE4B00E1EEEB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1F99411515DE4B00E1EEEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1F99441515DE4B00E1EEEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EF1F99461515DE4B00E1EEEB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EF1F99471515DE4B00E1EEEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1F992A1515DE4A00E1EEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1F99321515DE4B00E1EEEB /* UIKit.framework in Frameworks */,
+				EF1F99341515DE4B00E1EEEB /* Foundation.framework in Frameworks */,
+				EF1F99361515DE4B00E1EEEB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1F99221515DE4A00E1EEEB = {
+			isa = PBXGroup;
+			children = (
+				EF1F99371515DE4B00E1EEEB /* tetsugakushobo */,
+				EF1F99301515DE4B00E1EEEB /* Frameworks */,
+				EF1F992E1515DE4B00E1EEEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1F992E1515DE4B00E1EEEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F992D1515DE4B00E1EEEB /* tetsugakushobo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1F99301515DE4B00E1EEEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F99311515DE4B00E1EEEB /* UIKit.framework */,
+				EF1F99331515DE4B00E1EEEB /* Foundation.framework */,
+				EF1F99351515DE4B00E1EEEB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1F99371515DE4B00E1EEEB /* tetsugakushobo */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F99401515DE4B00E1EEEB /* AppDelegate.h */,
+				EF1F99411515DE4B00E1EEEB /* AppDelegate.m */,
+				EF1F99431515DE4B00E1EEEB /* MainStoryboard.storyboard */,
+				EF1F99461515DE4B00E1EEEB /* ViewController.h */,
+				EF1F99471515DE4B00E1EEEB /* ViewController.m */,
+				EF1F99381515DE4B00E1EEEB /* Supporting Files */,
+			);
+			path = tetsugakushobo;
+			sourceTree = "<group>";
+		};
+		EF1F99381515DE4B00E1EEEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F99391515DE4B00E1EEEB /* tetsugakushobo-Info.plist */,
+				EF1F993A1515DE4B00E1EEEB /* InfoPlist.strings */,
+				EF1F993D1515DE4B00E1EEEB /* main.m */,
+				EF1F993F1515DE4B00E1EEEB /* tetsugakushobo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1F992C1515DE4A00E1EEEB /* tetsugakushobo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1F994B1515DE4B00E1EEEB /* Build configuration list for PBXNativeTarget "tetsugakushobo" */;
+			buildPhases = (
+				EF1F99291515DE4A00E1EEEB /* Sources */,
+				EF1F992A1515DE4A00E1EEEB /* Frameworks */,
+				EF1F992B1515DE4A00E1EEEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tetsugakushobo;
+			productName = tetsugakushobo;
+			productReference = EF1F992D1515DE4B00E1EEEB /* tetsugakushobo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1F99241515DE4A00E1EEEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EF1F99271515DE4A00E1EEEB /* Build configuration list for PBXProject "tetsugakushobo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF1F99221515DE4A00E1EEEB;
+			productRefGroup = EF1F992E1515DE4B00E1EEEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1F992C1515DE4A00E1EEEB /* tetsugakushobo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1F992B1515DE4A00E1EEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1F993C1515DE4B00E1EEEB /* InfoPlist.strings in Resources */,
+				EF1F99451515DE4B00E1EEEB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1F99291515DE4A00E1EEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1F993E1515DE4B00E1EEEB /* main.m in Sources */,
+				EF1F99421515DE4B00E1EEEB /* AppDelegate.m in Sources */,
+				EF1F99481515DE4B00E1EEEB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF1F993A1515DE4B00E1EEEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1F993B1515DE4B00E1EEEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF1F99431515DE4B00E1EEEB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1F99441515DE4B00E1EEEB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1F99491515DE4B00E1EEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EF1F994A1515DE4B00E1EEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1F994C1515DE4B00E1EEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tetsugakushobo/tetsugakushobo-Prefix.pch";
+				INFOPLIST_FILE = "tetsugakushobo/tetsugakushobo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF1F994D1515DE4B00E1EEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tetsugakushobo/tetsugakushobo-Prefix.pch";
+				INFOPLIST_FILE = "tetsugakushobo/tetsugakushobo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1F99271515DE4A00E1EEEB /* Build configuration list for PBXProject "tetsugakushobo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1F99491515DE4B00E1EEEB /* Debug */,
+				EF1F994A1515DE4B00E1EEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1F994B1515DE4B00E1EEEB /* Build configuration list for PBXNativeTarget "tetsugakushobo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1F994C1515DE4B00E1EEEB /* Debug */,
+				EF1F994D1515DE4B00E1EEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1F99241515DE4A00E1EEEB /* Project object */;
+}
