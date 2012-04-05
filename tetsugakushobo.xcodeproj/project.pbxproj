@@ -15,6 +15,9 @@
 		EF1F99421515DE4B00E1EEEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F99411515DE4B00E1EEEB /* AppDelegate.m */; };
 		EF1F99451515DE4B00E1EEEB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1F99431515DE4B00E1EEEB /* MainStoryboard.storyboard */; };
 		EF1F99481515DE4B00E1EEEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F99471515DE4B00E1EEEB /* ViewController.m */; };
+		EF1F994F1515DED800E1EEEB /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1F994E1515DED800E1EEEB /* Default-Portrait~ipad.png */; };
+		EFE630311515E1AE00D32249 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = EFE6302F1515E1AE00D32249 /* index.html */; };
+		EFE630321515E1AE00D32249 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = EFE630301515E1AE00D32249 /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,18 @@
 		EF1F99311515DE4B00E1EEEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF1F99331515DE4B00E1EEEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF1F99351515DE4B00E1EEEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EF1F99391515DE4B00E1EEEB /* tetsugakushobo-Info.plist */ = {isa = PBXFileReference; path = "tetsugakushobo-Info.plist"; sourceTree = "<group>"; };
+		EF1F99391515DE4B00E1EEEB /* tetsugakushobo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tetsugakushobo-Info.plist"; sourceTree = "<group>"; };
 		EF1F993B1515DE4B00E1EEEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF1F993D1515DE4B00E1EEEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF1F993F1515DE4B00E1EEEB /* tetsugakushobo-Prefix.pch */ = {isa = PBXFileReference; path = "tetsugakushobo-Prefix.pch"; sourceTree = "<group>"; };
-		EF1F99401515DE4B00E1EEEB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1F993F1515DE4B00E1EEEB /* tetsugakushobo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tetsugakushobo-Prefix.pch"; sourceTree = "<group>"; };
+		EF1F99401515DE4B00E1EEEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF1F99411515DE4B00E1EEEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EF1F99441515DE4B00E1EEEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		EF1F99461515DE4B00E1EEEB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EF1F99461515DE4B00E1EEEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EF1F99471515DE4B00E1EEEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF1F994E1515DED800E1EEEB /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		EFE6302F1515E1AE00D32249 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EFE630301515E1AE00D32249 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,7 @@
 		EF1F99221515DE4A00E1EEEB = {
 			isa = PBXGroup;
 			children = (
+				EF1F994E1515DED800E1EEEB /* Default-Portrait~ipad.png */,
 				EF1F99371515DE4B00E1EEEB /* tetsugakushobo */,
 				EF1F99301515DE4B00E1EEEB /* Frameworks */,
 				EF1F992E1515DE4B00E1EEEB /* Products */,
@@ -90,6 +97,8 @@
 		EF1F99381515DE4B00E1EEEB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFE6302F1515E1AE00D32249 /* index.html */,
+				EFE630301515E1AE00D32249 /* style.css */,
 				EF1F99391515DE4B00E1EEEB /* tetsugakushobo-Info.plist */,
 				EF1F993A1515DE4B00E1EEEB /* InfoPlist.strings */,
 				EF1F993D1515DE4B00E1EEEB /* main.m */,
@@ -150,6 +159,9 @@
 			files = (
 				EF1F993C1515DE4B00E1EEEB /* InfoPlist.strings in Resources */,
 				EF1F99451515DE4B00E1EEEB /* MainStoryboard.storyboard in Resources */,
+				EF1F994F1515DED800E1EEEB /* Default-Portrait~ipad.png in Resources */,
+				EFE630311515E1AE00D32249 /* index.html in Resources */,
+				EFE630321515E1AE00D32249 /* style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +288,7 @@
 				EF1F994D1515DE4B00E1EEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

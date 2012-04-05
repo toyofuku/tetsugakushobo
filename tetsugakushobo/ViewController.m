@@ -18,6 +18,29 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    CGRect bounds = [[UIScreen mainScreen] applicationFrame];
+    CGRect viewRect = CGRectMake(0.0, 0.0, bounds.size.width, bounds.size.height);
+	htmlView = [[UIWebView alloc] initWithFrame: viewRect];
+    htmlView.scalesPageToFit = YES;
+	htmlView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    htmlView.delegate = self;
+
+    [htmlView loadRequest:request];
+//    [self.view addSubview:htmlView];
+    self.view = htmlView;
+//	[htmlView release];
+}
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+	NSString* scheme = [[request URL] scheme];
+	if([scheme compare:@"http"] == NSOrderedSame) {
+		[[UIApplication sharedApplication] openURL: [request URL]];
+        return NO;
+	}
+	return YES;
 }
 
 - (void)viewDidUnload
@@ -28,7 +51,8 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return YES;
+    return (interfaceOrientation == UIInterfaceOrientationPortrait
+			|| interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown);
 }
 
 @end
