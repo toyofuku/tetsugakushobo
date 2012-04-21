@@ -108,3 +108,12 @@ div.pics {
 	0% { -webkit-transform: rotateY(0deg);}
 	100% { -webkit-transform: rotateY(90deg);}
 }
+
+span.hinv {
+	-webkit-writing-mode: horizontal-tb;
+	display: inline-block;
+	line-height: 1em;
+	text-align: center;
+	text-indent: 0;
+	letter-spacing:0.0em;
+}
